@@ -1,0 +1,113 @@
+body{
+    background-color: black;
+    font-family: sans-serif;
+}
+#wrapper{
+    position:relative; 
+    margin: 0 auto 0 auto;
+    min-width: 650px;
+    width: 90%;
+    height: 100%;
+    background-color: rgb(7, 14, 58);
+}
+
+.menu-photo{
+    width: 100%;
+}
+.menu-nav{
+    width: 100%;
+
+
+}
+.wstep{
+    border: 10px double rgba(7, 95, 95, 0.856);
+    height: 200px;
+   background-image: url('https://i.imgur.com/CtfLS6Q.gif');
+   text-align: center;
+   color: rgb(248, 252, 53);
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+.klatka{
+    min-width: 600px;
+    min-height: 14em;
+    width: 90%;
+    margin: 20px auto 20px auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border: solid blue;
+    border-radius: 10px;
+
+    color:rgb(252, 248, 52)
+}
+
+
+.second {
+    height: 660px;
+    background-image: url('https://i.imgur.com/mN05cvy.gif');
+}
+
+.img-klatka{
+    max-width: 30%;
+    min-height: 5em;
+    max-height: 13em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    float: right;
+}
+
+table{
+    position: relative;
+  left: 100px;
+  top: 100px;
+    width: 40%;
+    margin: 10px 20px 10px 20px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border: 1px solid black;
+    border-collapse: 1px;
+}
+thead{
+    background-color:rgba(120, 146, 3, 0.5);
+    border: 1px solid black;
+}
+tbody{
+    background-color: rgba(233, 236, 46, 0.514);
+}
+td{
+    border: 1px solid black;
+}
+
+.tabela {
+    height: 518px;
+    background-image: url('https://nerdist.com/wp-content/uploads/2019/04/source.gif');
+}
+
+.demo {
+    position: relative;
+  left: 0px;
+  top: 0px;
+  margin: 0 auto 0 auto;
+    border:1px solid #1A1A1A;
+    border-collapse:collapse;
+    padding:5px;
+    text-align: center;
+}
+.demo th {
+    border:1px solid #1A1A1A;
+    padding:5px;
+    background:#A4A2A2;
+}
+.demo td {
+    border:1px solid #1A1A1A;
+    padding:5px;
+}
+
+footer{
+    background-color: rgb(32, 41, 102);
+    color: gray;
+    height: 20px;
+}

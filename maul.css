@@ -1,0 +1,203 @@
+body{
+    background-color: black;
+    font-family: sans-serif;
+}
+#wrapper{
+    position:relative; 
+    margin: 0 auto 0 auto;
+    width: 90%;
+    height: 100%;
+    background-color: rgb(6, 18, 99);
+}
+
+.menu-photo{
+    width: 100%;
+}
+.menu-nav{
+    width: 100%;
+
+
+}
+.wstep{
+    border-top: 4px solid red;
+    border-bottom: 4px solid green;
+   /* border-image-source: url(https://www.vhv.rs/dpng/d/5-58904_luke-skywalker-lightsaber-hd-png-download.png);
+    border-image-slice: 1; */
+   text-align: center;
+   color: rgb(253, 255, 142);
+   padding-top: 20px;
+   padding-bottom: 25px;
+}
+
+.pierwszy a, .drugi a, .trzeci a {
+    color: aqua;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: rgb(148, 184, 231);
+    color: rgb(0, 13, 48);
+  }
+  
+  .previous {
+    margin-top: 12px;
+      font-size: 20px;
+      position: absolute;
+      left: 2px;
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
+  }
+  
+  .next {
+      margin-top: 17px;
+    font-size: 25px;
+      position: absolute;
+      right: 2px;
+    background-color: green;
+    color: white;
+  }
+
+.klatka{
+    
+    background-color: rgb(25, 20, 97) ;
+    margin-left: 10%;
+ margin-right: 10%;
+ margin-top: 30px;
+ margin-bottom: 20px; 
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    border: solid rgb(70, 79, 255);
+    border-radius: 10px;
+    font-size: 17px;
+    color:rgb(252, 248, 52);
+    min-height: 18em;
+    text-align: justify;
+}
+
+.jedynka{
+    min-height: 13em;
+    border: 7px solid rgb(80, 0, 133);
+}
+
+.klatka h2{
+    font-size: 30px;
+}
+
+.filmy{
+    background-color: rgb(28, 42, 131) ;
+    border: solid rgb(70, 79, 255);
+    border-radius: 5px;
+}
+
+.img-klatka{
+    max-width: 40%;
+    max-height: 16em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    float: left;
+    border: solid rgb(70, 79, 255);
+}
+
+.img-klatka2{
+    max-width: 40%;
+    max-height: 16em;
+    float: right;
+    border: solid rgb(70, 79, 255);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.img-klatka2{
+    max-width: 40%;
+    max-height: 3em;
+    float: right;
+    border: solid rgb(70, 79, 255);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.spiny{
+    min-height: 22em;
+    border: 7px solid rgb(80, 0, 133);
+}
+.spiny .img-klatka{
+    margin-left: 3%;
+    max-width: 45%;
+    max-height: 13em;
+}
+
+
+.polowki{
+    min-height: 15em;
+    margin-top: 2px;
+    margin-bottom: 30px;
+    height: 19em;
+    max-height: 50em;
+}
+
+.pierwszy { 
+    background-color: rgb(28, 42, 131) ;
+    margin-left: 10%;
+    width: 25%; 
+    min-height: 19em; 
+    float: left;
+    border: solid blue;
+    border-radius: 10px;
+    color:rgb(252, 248, 52);
+    padding-left: 8px;
+}
+  
+  .drugi { 
+    background-color: rgb(28, 42, 131) ;
+      width: 25%;
+     min-height: 19em; 
+    float: left; 
+    margin-left: 1%;  
+    border: solid blue;
+    border-radius: 10px;
+    color:rgb(252, 248, 52);
+    padding-left: 8px;
+  }
+  .trzeci { 
+    background-color: rgb(28, 42, 131) ;
+      width: 24%;
+     min-height: 19em; 
+    float: left; 
+    margin-left: 1%; 
+    border: solid blue;
+    border-radius: 10px;
+    color:rgb(252, 248, 52);
+    padding-left: 8px;
+  }  
+
+.troje{
+        max-width: 95%;
+        max-height: 9em;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        float: right;
+     border: solid rgb(70, 79, 255);
+}
+.spis{
+    width: 100%;
+}
+footer{
+    background-color: rgb(32, 41, 102);
+    color: gray;
+    height: 20px;
+}

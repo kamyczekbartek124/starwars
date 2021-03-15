@@ -1,0 +1,140 @@
+body{
+    background-color: black;
+    font-family: sans-serif;
+}
+#wrapper{
+    position:relative; 
+    margin: 0 auto 0 auto;
+    width: 90%;
+    height: 100%;
+    background-color: rgb(7, 18, 87);
+}
+
+.menu-photo{
+    width: 100%;
+}
+.menu-nav{
+    width: 100%;
+
+
+}
+.wstep{
+    border-top: 4px double  rgb(255, 195, 118);
+    border-bottom: 4px double rgb(255, 195, 118);
+   /* border-image-source: url(https://www.vhv.rs/dpng/d/5-58904_luke-skywalker-lightsaber-hd-png-download.png);
+    border-image-slice: 1; */
+   text-align: center;
+   color: rgb(253, 255, 142);
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+.klatka{
+    background-color: rgb(28, 42, 131) ;
+    text-align: justify;
+    margin-left: 10%;
+ margin-right: 10%;
+ margin-top: 30px;
+ margin-bottom: 20px; 
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border: solid blue;
+    border-radius: 10px;
+    color:rgb(252, 248, 52)
+}
+
+.img-klatka{
+    max-width: 30%;
+    max-height: 10em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    float: right;
+    padding-left: 5px;
+}
+
+.img-klatkawide{
+    width: 100%;
+    max-height: 20em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    
+} 
+
+.polowki{
+    min-height: 21em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.pierwszy { 
+    background-color: rgb(28, 42, 131) ;
+    margin-left: 10%;
+    width: 39%; 
+    min-height: 20em; 
+    float: left;
+    border: solid blue;
+    border-radius: 10px;
+    color:rgb(252, 248, 52);
+    padding-left: 8px;
+}
+  
+  .drugi { 
+    background-color: rgb(28, 42, 131) ;
+      width: 39%;
+     min-height: 20em; 
+    float: left; 
+    margin-left: 1%;  
+    border: solid blue;
+    border-radius: 10px;
+    color:rgb(252, 248, 52);
+    padding-left: 8px;
+  }
+
+.mala { 
+    font-size: 17px;
+    background-color: rgb(28, 42, 131) ;
+    margin-left: 10%;
+    width: 29%; 
+    min-height: 19em; 
+    float: left;
+    border: solid blue;
+    border-radius: 10px;
+    color:rgb(252, 248, 52);
+    padding-left: 8px;
+    text-align: justify;
+}
+  
+  .duza { 
+    background-color: rgb(28, 42, 131) ;
+    width: 49%;
+     min-height: 20em; 
+    float: left; 
+    margin-left: 1%;  
+    border: solid blue;
+    border-radius: 10px;
+    color:rgb(252, 248, 52); 
+    padding-left: 5px;
+  }
+
+.duze {
+    max-width: 60%;
+    margin-bottom: 20px ;
+}
+
+  h2{
+      font-size: 30px;
+      margin-left: 15px;
+  }
+
+  a{
+      color: rgb(143, 133, 0);
+  }
+
+footer{
+    background-color: rgb(32, 41, 102);
+    color: gray;
+    height: 20px;
+}

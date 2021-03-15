@@ -1,0 +1,76 @@
+body{
+  background-color: black;
+  font-family: sans-serif;
+}
+#wrapper{
+  position:relative; 
+  margin: 0 auto 0 auto;
+  width: 90%;
+  height: 100%;
+  background-color: rgb(7, 14, 58);
+}
+
+.menu-photo{
+  width: 100%;
+}
+.menu-nav{
+  width: 100%;
+
+
+}
+.wstep {
+  border-top: 4px solid rgb(71, 90, 255);
+  border-bottom: 4px solid rgb(71, 90, 255);
+ /* border-image-source: url(https://www.vhv.rs/dpng/d/5-58904_luke-skywalker-lightsaber-hd-png-download.png);
+  border-image-slice: 1; */
+ text-align: center;
+ color: rgb(253, 255, 142);
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+.wstep a{
+  color: rgb(250, 253, 70);
+}
+
+.klatka{
+  
+  background-color: rgb(40, 38, 146) ;
+  margin-left: 5%;
+margin-right: 5%;
+margin-top: 30px;
+margin-bottom: 20px; 
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border: solid blue;
+  border-radius: 10px;
+text-align: justify;
+  color:rgb(252, 248, 52)
+}
+
+.klatka h2 {
+  text-align: center;
+  font-size: 30PX;
+  border-bottom: dotted rgba(34, 132, 178, 0.363);
+}
+
+.klatka p {
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.img-klatka{
+  max-width: 30%;
+  max-height: 10em;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 10px;
+  float: right;
+}
+
+footer{
+  background-color: rgb(32, 41, 102);
+  color: gray;
+  height: 20px;
+}

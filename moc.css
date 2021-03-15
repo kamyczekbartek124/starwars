@@ -1,0 +1,175 @@
+body{
+    background-color: black;
+    font-family: sans-serif;
+}
+#wrapper{
+    position:relative; 
+    margin: 0 auto 0 auto;
+    min-width: 900px;
+    width: 90%;
+    height: 100%;
+    background-color: rgb(7, 14, 58);
+}
+
+.menu-photo{
+    width: 100%;
+}
+.menu-nav{
+    width: 100%;
+
+
+}
+.wstep{
+    border: 4px solid rgb(252, 248, 52);
+   
+    width: 99%;
+    margin: 0 auto 0 auto;
+   color: rgb(253, 255, 142);
+   padding-top: 15px;
+   padding-bottom: 15px;
+   margin-bottom: 5px;
+   text-align: center;
+   background-color:  rgba(255, 255, 58, 0.37);;
+}
+#wstep{
+    font-size: 8px;
+    color: rgb(48, 48, 48);
+}
+
+.odsylacz{
+    margin-bottom: 100px;
+}
+
+.odsylacz li{
+    width: 30%;
+    font-size: 30px;
+    height: 150px;
+    background-color: rgb(55, 59, 71);
+  
+}
+#csm {
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: 0px;
+    text-align: right;
+    height: 100px;
+    
+}
+#jsm{
+    padding-top: 50px;
+    margin-left: 0px;
+    margin-right: auto;
+    text-align: left;
+    height: 100px;
+}
+#jsm:hover {
+    background-color: green ;
+}
+#csm:hover {
+    background-color: red;
+}
+.odsylacz .logo{
+    width:40%;
+}
+
+.moc{
+    width: 100%;
+}
+
+.klatka{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+    min-height: 30em;
+    max-height: 70em;
+    background-color: rgba(36, 121, 15, 0.39) ;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border: solid blue;
+    border-radius: 10px;
+    text-align: center;
+    color:rgb(252, 248, 52)
+}
+.klatka p{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.pierwsza h2 {
+    font-size: 40px;
+    border-image: url('podk.jpg') round;
+    border-width: 30px;
+  border-style: solid;
+  border-image-slice: 30;
+  border-image-repeat: round;
+    
+}
+.pierwsza{
+    background-color: rgba(0, 255, 0, 0.308);
+}
+.druga{
+    background-color: rgba(255, 0, 0, 0.349);
+}
+.pierwsza table{
+    width: 40%;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border: 1px solid black;
+    border-collapse: 1px;
+}
+.pierwsza table thead{
+    background-color:rgba(25, 112, 25, 0.603);
+    border: 1px solid black;
+}
+.pierwsza table tbody{
+    background-color: rgba(46, 236, 46, 0.514);
+}
+.pierwsza table td{
+    border: 1px solid black;
+}
+
+.druga table{
+    width: 40%;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border: 1px solid black;
+    border-collapse: 1px;
+}
+.druga table thead{
+    background-color:rgba(126, 1, 1, 0.753);
+    border: 1px solid black;
+}
+.druga table tbody{
+    background-color: rgba(233, 68, 39, 0.712);
+}
+.druga table td{
+    border: 1px solid black;
+}
+
+.druga h2 {
+    font-size: 40px;
+    border-image: url('podk2.jpg') round;
+    border-width: 30px;
+  border-style: solid;
+  border-image-slice: 30;
+  border-image-repeat: round;
+    
+}
+
+.img-klatka{
+    width: 50%;
+    max-height: 10em;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    float: right;
+}
+
+footer{
+    background-color: rgb(32, 41, 102);
+    color: gray;
+    height: 20px;
+}
